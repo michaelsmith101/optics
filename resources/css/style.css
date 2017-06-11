@@ -1,0 +1,27 @@
+/*Universal Styles*/
+html {
+  font-size: 18px;
+}
+body {
+  background-color: azure;
+  font-family: Helvetica;
+  line-height: 1.4
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*Header*/
+header .container{
+  display: flex;
+  align-items: center;
+}
+.header-container img{
+  border: 1px solid black;
+}
+.container ul {
+  display: flex;
+}
+ul li {
+  padding: 2rem 1rem;
+}
