@@ -34,6 +34,9 @@ header img{
 ul li {
   padding: 1rem 2rem;
 }
+ul.mobile{
+  display: none;
+}
 #header-background{
   background-image: url(../images/glasses-bg.png);
   height: 31rem;
@@ -139,5 +142,37 @@ footer img{
     margin-top: 5rem;
     margin-right: 2rem;
   }
+  header{
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+    top: -1rem;
+  }
 }
 /*smartphones*/
+@media only screen and (max-width: 470px){
+  h1 {
+    background-color: red;
+  }
+  header span {
+    visibility: hidden;
+  }
+  ul.desktop{
+    display: none;
+  }
+  ul.mobile{
+    visibility: visible;
+    display: inherit;
+  }
+  #header-background{
+    height: 18rem;
+    background-position: 20%;
+  }
+  .banner {
+    float: none;
+    display: inline-block;
+    /*position: relative;*/
+    /*top: 9rem;*/
+  }
+}
