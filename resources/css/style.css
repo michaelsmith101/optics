@@ -38,7 +38,7 @@ ul li {
   height: 31rem;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: center;
 }
 .banner {
   background-color: #ffffff;
@@ -54,10 +54,35 @@ ul li {
   left: 2rem;
 }
 /*Main Content Area*/
-main .container{
+main {
   margin: 3rem 0;
-  align-content: top;
-  display: inline;
-  /*height: 8rem;
-  display: inline-block;*/
+  align-items: center;
+  display: flex;
 }
+main .container{
+  display: flex;
+}
+.feature{
+  display: flex;
+  height: 8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature.paper img{
+  width: 3.5rem;
+}
+.feature.ruler img{
+  width: 5rem;
+  padding: 0 6rem;
+}
+.feature.truck img{
+  width: 5rem;
+}
+.feature p{
+  text-align: center;
+}
+.feature img{
+  display: inline-flex;
+}
+/*About*/
