@@ -86,3 +86,36 @@ main .container{
   display: inline-flex;
 }
 /*About*/
+section .container{
+  display: flex;
+}
+.info.philosophy{
+  margin-left: 10%;
+}
+.info {
+  width: 35%;
+  margin-left: 5%;
+}
+.info p{
+  margin-top: 1rem;
+}
+.info h2{
+  background-color: cadetblue;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem 0rem 0.5rem 1.25rem;
+}
+/*Footer*/
+footer{
+  margin-top: 5rem;
+}
+footer .container{
+  padding: 4rem 0 4rem 4rem;
+  display: flex;
+}
+footer img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
