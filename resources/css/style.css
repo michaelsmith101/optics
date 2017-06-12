@@ -16,7 +16,8 @@ header .container{
   background-color: cadetblue;
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  position: relative;
+  top: 1rem;
   color: #ffffff;
 }
 .container span{
@@ -31,7 +32,7 @@ header img{
   display: flex;
 }
 ul li {
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
 }
 #header-background{
   background-image: url(../images/glasses-bg.png);
